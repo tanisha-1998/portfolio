@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Tanisha Agrawal</title>
+    <style>
+    .ln{
+        display: flex;
+    padding: 28px;
+    margin-right:13px;
+    position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+       
+    }
+    .fb{display: flex;
+    padding: 28px;
+    margin-right:5px;
+    width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+
+    }
+
+    @keyframes example {
+  0%   {background-color:white; left:0px; top:0px;}
+  25%  {background-color:white ;left:200px; top:0px;}
+  35%  {background-color:white ;right:200px; top:0px;}
+  
+}
+    .insta{display: flex;
+    padding: 28px;
+    margin-right:1px;
+    position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+    }
+    </style>
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link p-4" href="/portfolio">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="/portfolio/about me.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-4" href="/portfolio/projects&internships.html">Projects & internships</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-4" href="/portfolio/skills.html">skills and certificates</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link p-4" href="/portfolio/contact.html">Contact</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Tanisha Agrawal
+          </span>
+        </div>
+      </nav>
+      <div >
+        <h1 class="font-weight-normal bg-info p-2">Contact Me</h1>
+        <p class="lead font-weight-normal ">  You can contact me, though my linked in ,facebook and instagram account.</p>
+       
+      </div>
+      <div class="ln">
+<a href="https://www.linkedin.com/feed/ " target = "_blank"><img width="40" height="40" src="ln.png" alt="">
+    <a href="https://www.linkedin.com/feed/ ">https://www.linkedin.com/feed/</a>
+</a>
+      </div>
+      <div class="fb">
+<a href="https://www.facebook.com/tanisha.agrawal.75098" target = "_blank"><img width="40" height="40" src="fb.png" alt="">
+    <a href="https://www.facebook.com/tanisha.agrawal.75098">https://www.facebook.com/tanisha.agrawal.75098</a>
+</a>
+      </div>
+      <div class="insta">
+<a href="https://www.instagram.com/tanish_a_grawal_/" ><img width="40" height="40" src="insta.png" alt="">
+<a href="https://www.instagram.com/tanish_a_grawal_/">https://www.instagram.com/tanish_a_grawal_/</a>
+</a>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+      function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+    </script>
+  </body>
+</html>
